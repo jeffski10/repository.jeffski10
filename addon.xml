@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.jeffski10" name="Jeffski10 Repository" version="0.1.0" provider-name="Jeffski10">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Jeffski10 Repository">
+            <info compressed="false">https://raw.github.com/jeffski10/repository.jeffski10/addons.xml</info>
+            <checksum>https://raw.github.com/jeffski10/repository.jeffski10/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/jeffski10/repository.jeffski10/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Jeffski10 Repository</summary>
+            <description>Contains add-ons for Kodi written by or modified by Jeffski10.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
